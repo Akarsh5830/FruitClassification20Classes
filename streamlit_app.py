@@ -9,7 +9,7 @@ st.title("🍎 Fruit Classifier using MobileNetV2")
 st.write("Upload an image of a fruit and the model will predict its type.")
 
 # Load the pre-trained model
-model = load_model("fruit_classifier_model.h5")  # Make sure the file name matches
+model = load_model("fruit_classifier_mobilenetv2.h5")  # Make sure the file name matches
 
 # Define the class labels (in exact order of training, cleaned)
 class_labels = [
